@@ -13,7 +13,7 @@ instead.
 ## New Features
 
 - [Fix colors by Material Design](https://github.com/StartPolymer/s-paper-checkbox/commit/6e5241b43786071277cc7a13eee7a5c91f1a238d)
-- [Support for custom prefix element](), which is displayed before the checkbox itself. From `paper-input` element.
+- [Support for custom prefix element](https://github.com/StartPolymer/s-paper-checkbox/commit/710c8b946738c9b9042e43b6844e940d6e8e0429), which is displayed before the checkbox itself. From `paper-input` element.
 
 ## Demo
 
