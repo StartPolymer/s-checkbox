@@ -1,6 +1,6 @@
 [![Published on webcomponents.org][webcomponents-image]][webcomponents-url]
 
-# \<s-paper-checkbox\>
+## \<s-paper-checkbox\>
 
 `s-paper-checkbox` is a [material design checkbox](https://material.io/guidelines/components/selection-controls.html#selection-controls-checkbox).
 User can tap the checkbox to check or uncheck it. Usually you use checkboxes
