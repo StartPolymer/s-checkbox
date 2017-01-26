@@ -57,6 +57,10 @@ instead.
         margin-top: 2px;
         max-width: 150px;
       }
+
+      paper-checkbox [prefix] {
+        margin-right: 16px;
+      }
     </style>
     <next-code-block></next-code-block>
   </template>
@@ -65,13 +69,19 @@ instead.
 -->
 ```html
 <paper-checkbox checked>Checked</paper-checkbox>
+
+<paper-checkbox>
+  <span prefix>&bull;</span>
+  With prefix
+</paper-checkbox>
+
 <paper-checkbox class="styled">
-  <div prefix>&bull;&nbsp;</div>
   Checkbox
   <span class="subtitle">
     With a longer label
   </span>
 </paper-checkbox>
+
 <paper-checkbox disabled>Disabled</paper-checkbox>
 ```
 
