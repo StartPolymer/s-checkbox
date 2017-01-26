@@ -1,5 +1,5 @@
 {
-  "name": "paper-checkbox",
+  "name": "s-paper-checkbox",
   "version": "1.4.2",
   "description": "A material design checkbox",
   "authors": [
@@ -15,10 +15,10 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-checkbox"
+    "url": "git://github.com/StartPolymer/s-paper-checkbox.git"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/PolymerElements/paper-checkbox",
+  "homepage": "https://github.com/StartPolymer/s-paper-checkbox",
   "ignore": [],
   "dependencies": {
     "polymer": "Polymer/polymer#^1.6.0",
