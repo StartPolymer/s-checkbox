@@ -8,7 +8,7 @@ to allow user to select multiple options from a set. If you have a single
 ON/OFF option, avoid using a single checkbox and use `paper-toggle-button`
 instead.
 
-`s-checkbox` is up-to-date fork of [`s-checkbox`](https://github.com/PolymerElements/s-checkbox).
+`s-checkbox` is up-to-date fork of [`paper-checkbox`](https://github.com/PolymerElements/paper-checkbox).
 
 ## New Features
 
