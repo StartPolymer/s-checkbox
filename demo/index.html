@@ -10,7 +10,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 -->
 <html>
   <head>
-    <title>paper-checkbox demo</title>
+    <title>s-checkbox demo</title>
 
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
     <meta name="mobile-web-app-capable" content="yes">
@@ -19,10 +19,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
     <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
     <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
-    <link rel="import" href="../paper-checkbox.html">
+    <link rel="import" href="../s-checkbox.html">
 
     <style is="custom-style" include="demo-pages-shared-styles">
-      paper-checkbox {
+      s-checkbox {
         display: block;
         margin-right: 24px;
       }
@@ -40,16 +40,16 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <h3>Checkboxes can be checked or unchecked, or disabled entirely</h3>
       <demo-snippet class="centered-demo">
         <template>
-          <paper-checkbox>Checkbox</paper-checkbox>
-          <paper-checkbox checked>Checkbox</paper-checkbox>
-          <paper-checkbox disabled>Disabled</paper-checkbox>
+          <s-checkbox>Checkbox</s-checkbox>
+          <s-checkbox checked>Checkbox</s-checkbox>
+          <s-checkbox disabled>Disabled</s-checkbox>
         </template>
       </demo-snippet>
 
       <h3>Checkboxes can hide the ripple effect using the <i>noink</i> attribute</h3>
       <demo-snippet class="centered-demo">
         <template>
-          <paper-checkbox noink>Checkbox</paper-checkbox>
+          <s-checkbox noink>Checkbox</s-checkbox>
         </template>
       </demo-snippet>
 
@@ -57,40 +57,40 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <demo-snippet class="centered-demo small-text">
         <template>
           <style is="custom-style">
-            paper-checkbox.red {
-              --paper-checkbox-checked-color: var(--paper-red-500);
-              --paper-checkbox-checked-ink-color: var(--paper-red-500);
-              --paper-checkbox-unchecked-color: var(--paper-red-900);
-              --paper-checkbox-unchecked-ink-color: var(--paper-red-900);
-              --paper-checkbox-label-color: var(--paper-red-500);
-              --paper-checkbox-vertical-align: top;
+            s-checkbox.red {
+              --s-checkbox-checked-color: var(--paper-red-500);
+              --s-checkbox-checked-ink-color: var(--paper-red-500);
+              --s-checkbox-unchecked-color: var(--paper-red-900);
+              --s-checkbox-unchecked-ink-color: var(--paper-red-900);
+              --s-checkbox-label-color: var(--paper-red-500);
+              --s-checkbox-vertical-align: top;
             }
 
-            paper-checkbox.green {
+            s-checkbox.green {
               align-self: center;
               border: 1px solid var(--paper-green-200);
               padding: 8px 16px;
 
-              --paper-checkbox-checked-color: var(--paper-green-500);
-              --paper-checkbox-checked-ink-color: var(--paper-green-500);
-              --paper-checkbox-unchecked-color: var(--paper-green-900);
-              --paper-checkbox-unchecked-ink-color: var(--paper-green-900);
-              --paper-checkbox-label-color: var(--paper-green-500);
-              --paper-checkbox-label-spacing: 0;
-              --paper-checkbox-margin: 8px 16px 8px 0;
-              --paper-checkbox-vertical-align: top;
+              --s-checkbox-checked-color: var(--paper-green-500);
+              --s-checkbox-checked-ink-color: var(--paper-green-500);
+              --s-checkbox-unchecked-color: var(--paper-green-900);
+              --s-checkbox-unchecked-ink-color: var(--paper-green-900);
+              --s-checkbox-label-color: var(--paper-green-500);
+              --s-checkbox-label-spacing: 0;
+              --s-checkbox-margin: 8px 16px 8px 0;
+              --s-checkbox-vertical-align: top;
             }
 
-            paper-checkbox.blue {
-              --paper-checkbox-checked-color: var(--paper-blue-500);
-              --paper-checkbox-checked-ink-color: var(--paper-blue-500);
-              --paper-checkbox-unchecked-color: var(--paper-blue-900);
-              --paper-checkbox-unchecked-ink-color: var(--paper-blue-900);
-              --paper-checkbox-label-color: var(--paper-blue-500);
-              --paper-checkbox-label-checked-color: var(--paper-blue-900);
+            s-checkbox.blue {
+              --s-checkbox-checked-color: var(--paper-blue-500);
+              --s-checkbox-checked-ink-color: var(--paper-blue-500);
+              --s-checkbox-unchecked-color: var(--paper-blue-900);
+              --s-checkbox-unchecked-ink-color: var(--paper-blue-900);
+              --s-checkbox-label-color: var(--paper-blue-500);
+              --s-checkbox-label-checked-color: var(--paper-blue-900);
             }
 
-            paper-checkbox .subtitle {
+            s-checkbox .subtitle {
               display: block;
               font-size: 0.8em;
               margin-top: 2px;
@@ -98,17 +98,17 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             }
           </style>
 
-          <paper-checkbox class="red">
+          <s-checkbox class="red">
             Checkbox
             <span class="subtitle">With a subtitle</span>
-          </paper-checkbox>
-          <paper-checkbox checked class="green">
+          </s-checkbox>
+          <s-checkbox checked class="green">
             Checkbox
             <span class="subtitle">
               With a longer subtitle that wraps to another line
             </span>
-          </paper-checkbox>
-          <paper-checkbox class="blue">Checkbox</paper-checkbox>
+          </s-checkbox>
+          <s-checkbox class="blue">Checkbox</s-checkbox>
         </template>
       </demo-snippet>
     </div>
